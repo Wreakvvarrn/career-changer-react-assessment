@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import Layout from './Layout'
+
 const mockEmployees = [
   {
     id: 0,
@@ -22,9 +25,11 @@ const mockEmployees = [
 const Home = () => {
 
   return (
-    <div>
-
-    </div>
+    <Layout>
+      <div>
+        This is Home page
+      </div>
+    </Layout>
   )
 }
 
