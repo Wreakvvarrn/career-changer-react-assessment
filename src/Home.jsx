@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Layout from './Layout'
+import Button from './Button'
 
 const mockEmployees = [
   {
@@ -27,12 +28,14 @@ const Home = () => {
   return (
     <Layout>
       <div>
-        This is Home page
+        <h1>Generation Thailand</h1>
+        <h1>React - Assessment</h1>
+        <Button />
       </div>
     </Layout>
   )
 }
 
 
-
+export { mockEmployees }
 export default Home
